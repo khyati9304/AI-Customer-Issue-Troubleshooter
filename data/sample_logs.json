@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-10-19T10:00:00",
+    "service": "api",
+    "level": "ERROR",
+    "message": "401 Unauthorized: configured credential key_old does not match active key key_new"
+  },
+  {
+    "timestamp": "2026-10-19T10:05:00",
+    "service": "payment_service",
+    "level": "WARN",
+    "message": "Elevated response latency detected: 1800ms"
+  },
+  {
+    "timestamp": "2026-10-19T10:10:00",
+    "service": "api",
+    "level": "ERROR",
+    "message": "Repeated 401 Unauthorized responses"
+  }
+]

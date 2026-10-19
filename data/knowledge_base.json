@@ -1,0 +1,32 @@
+[
+  {
+    "id": "KB001",
+    "title": "Troubleshooting HTTP 401",
+    "keywords": ["401", "unauthorized", "authentication", "api key"],
+    "guidance": "Check credential configuration, token expiry, and authorization headers. Never share secret keys in logs or support tickets."
+  },
+  {
+    "id": "KB002",
+    "title": "Troubleshooting HTTP 403",
+    "keywords": ["403", "forbidden", "permission", "authorization"],
+    "guidance": "Verify the identity's permissions, role assignments, and resource access policy."
+  },
+  {
+    "id": "KB003",
+    "title": "Troubleshooting HTTP 429",
+    "keywords": ["429", "rate limit", "too many requests"],
+    "guidance": "Inspect rate-limit responses and request volume. Apply exponential backoff and respect Retry-After when available."
+  },
+  {
+    "id": "KB004",
+    "title": "Troubleshooting HTTP 500",
+    "keywords": ["500", "internal server error", "server failure"],
+    "guidance": "Inspect server-side errors, recent deployments, dependencies, and service health."
+  },
+  {
+    "id": "KB005",
+    "title": "Troubleshooting slow APIs",
+    "keywords": ["latency", "slow", "timeout", "performance"],
+    "guidance": "Compare latency metrics, inspect dependency health, and review recent changes before identifying a root cause."
+  }
+]

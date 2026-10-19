@@ -1,0 +1,12 @@
+{
+  "api": {
+    "status": "healthy",
+    "latency_ms": 120,
+    "endpoint": "/api/v1/orders"
+  },
+  "payment_service": {
+    "status": "degraded",
+    "latency_ms": 1800,
+    "endpoint": "/api/v1/payments"
+  }
+}
